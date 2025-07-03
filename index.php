@@ -1,3 +1,8 @@
+<?php
+// Incluimos la conexión a la base de datos
+require_once("config.php");
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
