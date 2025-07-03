@@ -21,6 +21,18 @@ $email = $_POST['email'];
     <li>Fecha de Nacimiento: <?=$fechanac?></li>
     <li>Correo electrónico: <?=$email?></li>
 </ul>
+<?php
+$consulta = //mysqli_query
+("insert into alumnos(nombre,apellido1,apellido2,fecha_nac, email) values ('$nombre','$apellido1', '$apellido2', '$fechanac','$email')"
+   // echo $consulta;
+   //ejecutamos la consulta
+   $resultado = mysqli_query($conexion, $consulta);
+   if ($resultado>0 {
+    echo '<p>Se ha insertado el alumno satisfactoriamente</p>';
+    } else {
+        echo "<p class='error>Error al insertar el alumno</p>";
+    })
+?>
 
 <?php require_once('plantillas/pie.php');?>
 
