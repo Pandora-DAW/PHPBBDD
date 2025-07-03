@@ -16,7 +16,7 @@ require_once("config.php");
     <nav>
         <ul>
             <li><a href="#">Mostrar alumnos</a></li>
-            <li><a href="#">Insertar alumnos</a></li>
+            <li><a href="registro.php#">Insertar alumnos</a></li>
         </ul>
     </nav>
 </header>
