@@ -4,6 +4,9 @@ define("DB_NOMBRE", "seneca");
 define("DB_USUARIO", "seneca");
 define('DB_PASSWORD', '12345');
 
+// Iniciar sesión en PHP
+session_start();
+
 // conectar a la base de datos
 $conexion = mysqli_connect(DB_HOST, DB_USUARIO, DB_PASSWORD, DB_NOMBRE);
 if (!$conexion) {
